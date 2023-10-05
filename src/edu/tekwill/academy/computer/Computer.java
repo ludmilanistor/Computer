@@ -1,9 +1,7 @@
 package edu.tekwill.academy.computer;
 
-import edu.tekwill.academy.computer.components.HardDrive;
-import edu.tekwill.academy.computer.components.Motherboard;
-import edu.tekwill.academy.computer.components.Processor;
-import edu.tekwill.academy.computer.peripherals.Monitor;
+import edu.tekwill.academy.computer.components.*;
+import edu.tekwill.academy.computer.peripherals.*;
 
 public class Computer {
 
@@ -19,9 +17,14 @@ public class Computer {
 
         Monitor monitor = new Monitor(){};
 
-        System.out.println(monitor);
-        System.out.println(motherboard);
-        System.out.println(hardDrive);
+        Mouse mouse = new Mouse(){};
+
+        Keyboard keyboard = new Keyboard();
+
+
+//        System.out.println(monitor);
+//        System.out.println(motherboard);
+//        System.out.println(hardDrive);
 
     }
 }
